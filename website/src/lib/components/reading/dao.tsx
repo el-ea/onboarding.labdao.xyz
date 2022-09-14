@@ -7,7 +7,7 @@ const DAO_CONTENT = [
   {
     title: "What is a DAO?",
     previewText:
-      '"an effective and safe way to work with like-minded folks around the globe."',
+      '"A collectively-owned, blockchain-governed organisation working towards a shared mission."',
     body: (
       <>
         <Link href="https://ethereum.org/en/dao/" passHref>
@@ -15,42 +15,42 @@ const DAO_CONTENT = [
             DAOs
           </ChakraLink>
         </Link>{" "}
-        are "an effective and safe way to work with like-minded folks around the
-        globe." Members of a DAO own and manage the organization using
-        governance systems (such as voting and proposals). The rules of a DAO
-        are ingrained in the code on which it runs.
+        are a collectively-owned organisation that allow like-minded folks to work together around the
+        globe. DAOs are usually flat in hierarchy and democratised, all activity is transparent and public. 
+        Decisions are made by members of the DAO using governance systems (such as voting and proposals). 
+        The "rules" of a DAO are ingrained into the blockchain via a "smart contract", the code on which it runs.
         <br />
         <br />
-        A DAO’s smart contracts (code that runs on a blockchain) are deployed
-        with the voted approval of the DAO and often help determine how the
-        group's treasury and governance sysstems are managed.
+        A DAO’s smart contract defines how the organisation works. It is deployed with voted DAO member approval 
+        and can help determine how the group's treasury and governance systems are managed. 
+        The Ethereum blockchain is the perfect foundation for DAO smart contracts because they are tamper-proof, 
+        all activity is public and can only be changed by DAO vote.
         <br />
         <br />
-        At LabDAO, that means that members of the DAO (who will own the
-        not-yet-launched $LAB tokens) will have a say in the major decisions
-        that are made about governance, funds, etc.
+        At LabDAO, this means that members of the DAO (owners of the not-yet-launched governance $LAB tokens) 
+        will have a say in major decisions made on e.g. DAO governance, funding, etc.
       </>
     ),
   },
   {
     title: "What tools do you need to participate in LabDAO?",
     previewText:
-      "The first tool you’ll need to get in touch with other members of LabDAO.",
+      "The first tool to get in touch with other members of LabDAO is Discord.",
     body: (
       <>
         <Heading as="h3" size="md">
           Discord
         </Heading>
         <br />
-        LabDAO currently uses{" "}
+        LabDAO uses{" "}
         <Link href="https://discord.com" passHref>
           <ChakraLink isExternal textDecoration="underline">
             Discord
           </ChakraLink>
         </Link>{" "}
-        for communication between DAO members. Discord is functionally similar
-        to Slack, but it has a bit more modularity. To meet other members of the
-        community and explore ongoing projects, download Discord and create and
+        as the main communication platform for DAO members. Discord is functionally similar
+        to Slack, but with more modularity. To meet other LabDAO members, join community events
+        and explore ongoing projects, download Discord and create an
         account{" "}
         <Link href="https://discord.com" passHref>
           <ChakraLink isExternal textDecoration="underline">
@@ -61,10 +61,10 @@ const DAO_CONTENT = [
         <br />
         <br />
         Once you’ve created an account and downloaded the app, open Discord and
-        click on your username next to your avatar on the bottom left corner.
+        click the username next to your avatar on the bottom left corner.
         This will automatically copy your username/ID (which will look like
         ‘Name#1234’).{" "}
-        <b>Keep this username handy, we’ll ask you for it soon.</b>
+        <b>Keep this handy, we’ll ask you for it soon.</b>
         <br />
         <br />
         <Heading as="h3" size="md">
@@ -84,10 +84,15 @@ const DAO_CONTENT = [
           </ChakraLink>
         </Link>{" "}
         will be important for allowing you to vote on community proposals,
-        connect to other applications and get rewarded for your contributions.
+        connect to other applications,{" "}
+        <Link href="https://gitcoin.co/grants/" passHref>
+          <ChakraLink isExternal textDecoration="underline">
+          apply for grants 
+          </ChakraLink>  
+        and get rewarded for your contributions.
         <br />
         <br />
-        If you don’t have already have a wallet we recommend first finishing
+        If you don’t have already have a wallet we recommend firstly finishing
         your LabDAO onboarding before creating one.
       </>
     ),
