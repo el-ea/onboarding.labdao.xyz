@@ -4,44 +4,50 @@ import Reading from "./reading";
 
 const DESCI_CONTENT = [
   {
-    title: "What is Decentralized Science?",
+    title: "What is Decentralized Science (DeSci)?",
     previewText:
-      "An emerging field that uses blockchain technology and web3 principles to improve science.",
+      "{" "}
+    <Link href="https://www.nature.com/articles/s41587-022-01459-z" passHref>
+      <ChakraLink isExternal textDecoration="underline">
+        DeSci is an emerging field
+        </ChakraLink>
+        </Link>{" "}
+      that uses blockchain technology and Web3 principles to improve the way scientific research is conducted.",
     body: (
       <>
-        DeSci entails various projects in the space that are working to:
+        DeSci is a growing movement that aims to build public infrastructure for funding, creating, reviewing, 
+        crediting, storing and disseminating scientific knowledge faily and equitably using Web3 technology.
+        Colletively, the DeSci ecosystem is working towards:
         <UnorderedList>
-          <ListItem>improve coordination</ListItem>
+          <ListItem>improving coordination</ListItem>
           <ListItem>
-            increase access to scientific publishing and participation
+            increasing access to scientific publishing and participation
           </ListItem>
-          <ListItem>provide novel sources of funding</ListItem>
-          <ListItem>democratize science and</ListItem>
+          <ListItem>providing novel sources of funding</ListItem>
+          <ListItem>democratising science</ListItem>
           <ListItem>
-            generally create mechanisms that incentivize scientific progress.
+            creating mechanisms that incentivise scientific progress.
           </ListItem>
         </UnorderedList>
       </>
     ),
   },
   {
-    title: "How does LabDAO fit into the DeSci space?",
-    previewText: "LabDAO is using blockchain technology to: ",
+    title: "How does LabDAO fit into the DeSci ecosystem?",
+    previewText: "LabDAO is using blockchain technology to achieve the following: ",
     body: (
       <>
         <UnorderedList>
           <ListItem>
-            Give everyone the opportunity to <b>raise funds</b> for their
+            <b>Lab-Fund</b>: Give scientists better access to raise funds for their
             scientific or entrepreneurial project
           </ListItem>
           <ListItem>
-            Enable everyone to <b>run laboratory services</b>, no matter where
-            they are
+            <b>Lab-Exchange</b>: Enable scientists to run laboratory services from their computer, from anywhere in the world
           </ListItem>
           <ListItem>
-            {" "}
-            <b>Share data and materials</b> in a new ways that reward inventors
-            and create access
+            <b>LabTeams</b>: Share data and materials in new ways that reward inventors
+            and create access to new research pathways
           </ListItem>
         </UnorderedList>
         <br />
